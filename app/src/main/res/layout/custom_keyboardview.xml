@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <app.gkai.ai.core.common.view.CustomNumKeyView
+        android:id="@+id/keyboardview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_dimen_200"
+        android:background="@color/white"/>
+</LinearLayout>

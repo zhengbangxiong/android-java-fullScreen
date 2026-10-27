@@ -1,0 +1,87 @@
+
+buildscript {
+    repositories {
+//        def REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public/'
+//        all { ArtifactRepository repo ->
+//            if(repo instanceof MavenArtifactRepository){
+//                def url = repo.url.toString()
+//                if (url.startsWith('https://repo1.maven.org/maven2') || url.startsWith('https://jcenter.bintray.com/')) {
+//                    project.logger.lifecycle "Repository ${repo.url} replaced by $REPOSITORY_URL."
+//                    remove repo
+//                }
+//            }
+//        }
+//        //mavenLocal()
+//        maven {
+//            url REPOSITORY_URL
+//        }
+
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+
+
+//        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+//        maven { url 'https://maven.aliyun.com/repository/central' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+//        maven { url 'https://maven.aliyun.com/repository/google' }
+//        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+//        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+//        def REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public/'
+//        all { ArtifactRepository repo ->
+//            if(repo instanceof MavenArtifactRepository){
+//                def url = repo.url.toString()
+//                if (url.startsWith('https://repo1.maven.org/maven2') || url.startsWith('https://jcenter.bintray.com/')) {
+//                    project.logger.lifecycle "Repository ${repo.url} replaced by $REPOSITORY_URL."
+//                    remove repo
+//                }
+//            }
+//        }
+//
+//        mavenLocal()
+//        maven {
+//            url REPOSITORY_URL
+//        }
+//        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+//        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+//        maven { url 'https://maven.aliyun.com/repository/central' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+//        maven { url 'https://maven.aliyun.com/repository/google' }
+//        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        maven { url 'https://www.jitpack.io' }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

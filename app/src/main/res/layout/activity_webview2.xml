@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llt_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_dimen_44"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/llt_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/font_dimen_10"
+                android:paddingRight="@dimen/font_dimen_40"
+                android:paddingLeft="@dimen/font_dimen_10"
+                android:paddingBottom="@dimen/font_dimen_10"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/font_dimen_10"
+                    android:layout_height="@dimen/font_dimen_15"
+                    android:background="@drawable/arrow_left"/>
+            </LinearLayout>
+
+            <app.gkai.ai.core.common.view.AlwaysMarqueeTextView
+                android:id="@+id/tv_title"
+                android:layout_width="@dimen/font_dimen_200"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textSize="@dimen/font_sp_18" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"/>
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+        <TextView
+            android:id="@+id/logView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:singleLine="false">
+        </TextView>
+
+     
+        
+    </RelativeLayout>
+
+</LinearLayout>

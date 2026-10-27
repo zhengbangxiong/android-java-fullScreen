@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_1E86FC"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_blue_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/font_dimen_10"
+        android:layout_marginTop="@dimen/font_dimen_10"
+        android:layout_marginRight="@dimen/font_dimen_10"
+        android:background="@drawable/bg_google_picture_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/font_dimen_30"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/font_dimen_15"
+                android:layout_marginRight="@dimen/font_dimen_15"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/font_dimen_18"
+                        android:layout_height="@dimen/font_dimen_18"
+                        android:src="@drawable/google_yes" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/upload"
+                        android:textColor="@color/color_1E86FC"
+                        android:textSize="@dimen/font_sp_12" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/font_dimen_1"
+                    android:layout_marginLeft="@dimen/font_dimen_10"
+                    android:layout_marginTop="@dimen/font_dimen_8"
+                    android:layout_marginRight="@dimen/font_dimen_10"
+                    android:layout_weight="1"
+                    android:background="@color/color_1E86FC" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/font_dimen_18"
+                        android:layout_height="@dimen/font_dimen_18"
+                        android:src="@drawable/google_yes" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/comfirm"
+                        android:textColor="@color/color_1E86FC"
+                        android:textSize="@dimen/font_sp_12" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/font_dimen_1"
+                    android:layout_marginLeft="@dimen/font_dimen_10"
+                    android:layout_marginTop="@dimen/font_dimen_8"
+                    android:layout_marginRight="@dimen/font_dimen_10"
+                    android:layout_weight="1"
+                    android:background="@color/color_1E86FC" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/font_dimen_18"
+                        android:layout_height="@dimen/font_dimen_18"
+                        android:src="@drawable/google_no" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/audit"
+                        android:textColor="@color/color_b2b2b2"
+                        android:textSize="@dimen/font_sp_12" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/font_dimen_1"
+                    android:layout_marginLeft="@dimen/font_dimen_10"
+                    android:layout_marginTop="@dimen/font_dimen_8"
+                    android:layout_marginRight="@dimen/font_dimen_10"
+                    android:layout_weight="1"
+                    android:background="@color/color_f0f0f0" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/font_dimen_18"
+                        android:layout_height="@dimen/font_dimen_18"
+                        android:src="@drawable/google_no" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/complete"
+                        android:textColor="@color/color_b2b2b2"
+                        android:textSize="@dimen/font_sp_12" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/font_dimen_30"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/font_dimen_15"
+            android:paddingRight="@dimen/font_dimen_15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/real_name"
+                android:textColor="@color/color_safely_blue"
+                android:textSize="@dimen/font_sp_14" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/authentication_hint_id_name"
+                android:maxLength="30"
+                android:paddingTop="@dimen/font_dimen_15"
+                android:paddingBottom="@dimen/font_dimen_15"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_et_grey"
+                android:textSize="@dimen/font_sp_13" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/font_dimen_1"
+                android:background="@color/color_safely_line_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/font_dimen_15"
+            android:paddingRight="@dimen/font_dimen_15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/font_dimen_20"
+                android:text="@string/id_number"
+                android:textColor="@color/color_safely_blue"
+                android:textSize="@dimen/font_sp_14" />
+
+            <EditText
+                android:id="@+id/et_id_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="@string/authentication_hint_id_number"
+                android:maxLength="20"
+                android:paddingTop="@dimen/font_dimen_15"
+                android:paddingBottom="@dimen/font_dimen_15"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_et_grey"
+                android:textSize="@dimen/font_sp_13" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/font_dimen_1"
+                android:background="@color/color_safely_line_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llt_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/font_dimen_15"
+                android:paddingRight="@dimen/font_dimen_15">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/font_dimen_20"
+                    android:text="@string/email"
+                    android:textColor="@color/color_safely_blue"
+                    android:textSize="@dimen/font_sp_14" />
+
+                <TextView
+                    android:id="@+id/et_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:paddingTop="@dimen/font_dimen_15"
+                    android:paddingBottom="@dimen/font_dimen_15"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_sp_13" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/font_dimen_1"
+                    android:background="@color/color_safely_line_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/font_dimen_15"
+                android:paddingRight="@dimen/font_dimen_15">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/font_dimen_20"
+                    android:text="@string/yzm"
+                    android:textColor="@color/color_safely_blue"
+                    android:textSize="@dimen/font_sp_14" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/et_yzm"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:digits="0123456789"
+                        android:hint="@string/input_yzm"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:paddingTop="@dimen/font_dimen_15"
+                        android:paddingBottom="@dimen/font_dimen_15"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/color_et_grey"
+                        android:textSize="@dimen/font_sp_13" />
+
+                    <TextView
+                        android:id="@+id/tv_yzm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_selector"
+                        android:paddingLeft="@dimen/font_dimen_8"
+                        android:paddingTop="@dimen/font_dimen_8"
+                        android:paddingRight="@dimen/font_dimen_8"
+                        android:paddingBottom="@dimen/font_dimen_8"
+                        android:text="@string/regisetr_get_yzm"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_sp_13" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/font_dimen_1"
+                    android:background="@color/color_safely_line_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/font_dimen_49"
+            android:layout_marginLeft="@dimen/font_dimen_15"
+            android:layout_marginTop="@dimen/font_dimen_34"
+            android:layout_marginRight="@dimen/font_dimen_15"
+            android:background="@drawable/btn_selector"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_sp_14" />
+
+
+    </LinearLayout>
+</LinearLayout>

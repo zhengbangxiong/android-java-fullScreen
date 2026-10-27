@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">TradingBase</string>
+    <!--    <string name="app_name">云存大数据</string>-->
+
+    <string name="loading">正在加载中</string>
+    <string name="regisetr_get_yzm">获取验证码</string>
+
+    <string name="network_timeout">网络超时</string>
+    <string name="network_error">网络异常</string>
+    <string name="service_busy">服务繁忙</string>
+
+    <string name="fail_retry">请求失败，请重试</string>
+
+
+    <string name="success">操作成功</string>
+
+    <string name="splash_filecoin">Filecoin</string>
+    <string name="splash_filecoin_two">云存壹号</string>
+
+
+    <string name="guide_ysl">云算力</string>
+    <string name="guide_wkrcjd">存儲如此简单</string>
+    <string name="guide_kj">FileCoin云设备</string>
+    <string name="guide_ljkj">分布式存储,立即存储</string>
+    <string name="guide_ljwk">立即存儲</string>
+    <string name="guide_hqsz">家里有矿，豪气十足</string>
+    <string name="guide_bzyc">不止于此</string>
+    <string name="guide_find">改变,不止一点点，等您来发现</string>
+    <string name="guide_ljty">立即体验</string>
+    <string name="guide_agrees">同意《软件许可以及使用协议》和《用户隐私政策》</string>
+    <string name="guide_agrees_one">请同意《软件许可使用协议及隐私政策》</string>
+    <string name="guide_agrees_two">《软件许可使用协议及隐私政策》</string>
+    <string name="guide_agrees_three">软件许可使用协议及隐私政策</string>
+
+
+    <string name="exis_app">再按一次退出程序</string>
+    <string name="safely_authentication">实名认证</string>
+    <string name="safely_google">google验证码绑定</string>
+    <string name="safely_password">修改登录密码</string>
+    <string name="safely_email">绑定邮箱</string>
+    <string name="salefy_phone">手机号码</string>
+    <string name="salefy_no_authentication">未认证</string>
+    <string name="salefy_authentication">已认证</string>
+    <string name="real_name">真实姓名</string>
+    <string name="id_number">身份证号</string>
+    <string name="authentication_hint_id_name">请填写与身份证一致的姓名</string>
+    <string name="authentication_hint_id_number">请输入身份证号码</string>
+    <string name="next">下一步</string>
+    <string name="my_authentication">实名认证</string>
+    <string name="authentication_idnumber_one">1.请上传身份证正面照</string>
+    <string name="authentication_idnumber_two">2.请上传身份证反面照</string>
+    <string name="authentication_idnumber_three">3.请上传手持身份证正面照</string>
+    <string name="authentication_idnumber_four">1：上传身份证照片文字信息必须完整清晰</string>
+    <string name="authentication_idnumber_five">2：手持身份证照，五官清晰可见，且完全露出双手手臂</string>
+    <string name="authentication_idnumber_six">3：建议横屏拍摄</string>
+    <string name="authentication_idnumber_camera">拍摄要求</string>
+    <string name="authentication_upload_idnumber">上传身份证</string>
+    <string name="authentication_please_qx">请手动打开该应用需要的权限</string>
+
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="hint_old_password">请输入原密码</string>
+    <string name="hint_new_password">请输入新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="hint_confirm_password">请再次输入密码</string>
+    <string name="confirm">确定</string>
+    <string name="password_below_six">密码不能低于6位</string>
+    <string name="picture_upload_error">图片上传失败</string>
+
+    <string name="authentication_message">实名信息</string>
+    <string name="hint_write_nickName">请输入昵称</string>
+    <string name="hint_write_tag">请输入个性签名</string>
+    <string name="select_headimg">请选择头像</string>
+    <string name="save">保存</string>
+    <string name="memberinfo">个人信息</string>
+
+    <string name="authentication_idnumber_front">请上传身份证正面照</string>
+    <string name="authentication_idnumber_cont">请上传身份证反面照</string>
+    <string name="authentication_idnumber_sc">请上手持身份证正面照</string>
+
+    <string name="info_name">姓名：</string>
+    <string name="info_idnumber">身份证号：</string>
+    <string name="info_error">实名认证失败</string>
+    <string name="info_review_error">审核失败：您的实名认证审核未通过！</string>
+    <string name="info_refuse">拒绝理由：</string>
+    <string name="info_cxrz">重新认证</string>
+
+
+    <string name="refresh_down">到底了，我是有底线的</string>
+    <string name="google_apk_uploading">正在下载中,请稍等</string>
+    <string name="google_valication">Google身份验证器</string>
+
+
+    <string name="matchine_agree_xy">请同意《用户云算力购买协议》</string>
+    <string name="matchine_agree">我已阅读并同意</string>
+    <string name="matchine_xy_one">《用户云算力购买协议》</string>
+    <string name="matchine_xy_two">用户云算力购买协议</string>
+
+
+    <string name="dialog_google_one">绑定Google身份验证器</string>
+    <string name="dialog_google_two">您目前尚未完成Google身份验证器</string>
+    <string name="dialog_google_three">请前往绑定,感谢您的理解与支持。</string>
+    <string name="dialog_google_four">取消</string>
+    <string name="dialog_google_five">去绑定</string>
+
+    <string name="isrename">实名认证</string>
+    <string name="isrename_one">您目前尚未完成身份认证，根据国家相关规定， 币种交易需要进行实名登记，请填写您的真实身份信息，一但认证完成将无法更改，感谢您的理解与支持。</string>
+    <string name="isrename_two">取消</string>
+    <string name="isrename_three">去认证</string>
+
+    <string name="cancel">取消</string>
+    <string name="comfirm">确定</string>
+
+    <string name="skip">跳过</string>
+    <string name="install_permissions">安装权限</string>
+    <string name="install_permissions_one">需要打开允许来自此来源</string>
+    <string name="install_permissions_two">请去设置中开启此权限</string>
+    <string name="dialog_loading">加载中...</string>
+    <string name="dialog_loading_success">加载成功</string>
+    <string name="dialog_update_version">发现新版本</string>
+    <string name="dialog_version_loading">新版本正在努力下载中，请稍后</string>
+    <string name="dialog_ljgx">立即更新</string>
+
+    <string name="seconds">秒</string>
+    <string name="upload_error">下载失败</string>
+    <string name="partner_share">分享到</string>
+    <string name="no_network">请检查网络连接状态</string>
+    <string name="network_exception">网络异常</string>
+
+    <string name="home">首页</string>
+    <string name="home_machinery">云设备</string>
+    <string name="home_mining">存儲</string>
+    <string name="home_wallet">钱包</string>
+    <string name="home_my">我的</string>
+
+    <string name="upload">上传</string>
+    <string name="audit">审核</string>
+    <string name="complete">完成</string>
+    <string name="email">邮箱</string>
+    <string name="yzm">验证码</string>
+    <string name="input_yzm">请输入短信验证码</string>
+    <string name="unbindGoogle">解绑Googel身份验证器</string>
+    <string name="openFingerPrint">请开启指纹识别</string>
+    <string name="ccqx_error">存储权限获取失败</string>
+
+    <string name="yqm">邀请码:</string>
+    <string name="copy">复制</string>
+    <string name="sharePicture">分享图片</string>
+    <string name="invite_frient">邀请好友</string>
+    <string name="copy_success">复制成功</string>
+    <string name="picture_address_null">图片地址为空</string>
+    <string name="upload_problem">安装遇到问题？</string>
+
+    <string name="upload_problem2">若安装提示【风险应用】或者【恶意应用】，您可以关闭网络后，在无网的情况下安装</string>
+    <string name="uploading_text">下载</string>
+    <string name="uploading_network_text">请检查网络</string>
+    <!--    <string name=""></string>-->
+</resources>

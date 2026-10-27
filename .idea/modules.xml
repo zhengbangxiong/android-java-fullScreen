@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GKAIStore-android-java-v1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/GKAIStore-android-java-v1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.iml" filepath="$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.main.iml" filepath="$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/VerificationCodeJava/GKAIStore-android-java-v1.0.VerificationCodeJava.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/X5WebDemo/GKAIStore-android-java-v1.0.X5WebDemo.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GKAIStore-android-java-v1.0.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.iml" filepath="$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biometriclib.gradle/GKAIStore-android-java-v1.0.biometriclib.gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/biometriclib.gradle/GKAIStore-android-java-v1.0.biometriclib.gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/biometriclib/GKAIStore-android-java-v1.0.biometriclib.unitTest.iml" />
+    </modules>
+  </component>
+</project>

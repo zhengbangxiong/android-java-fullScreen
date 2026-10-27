@@ -1,0 +1,141 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion "29.0.2"
+//    buildToolsVersion "28.0.3"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+//    packagingOptions {
+//        jniLibs {
+//            useLegacyPackaging true
+//        }
+//    }
+
+    defaultConfig {
+        applicationId "app.gkai.ai"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 190
+        versionName "1.90"
+        multiDexEnabled true
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+
+        ndk {
+            // 设置支持的SO库架构
+//            abiFilters "armeabi", "armeabi-v7a", "x86", "x86_64", "mips", 'arm64-v8a' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'com.google.android:android-test:4.1.1.4'
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+//    implementation files('libs/okio-1.6.0.jar')
+//    implementation files('libs/okhttp-2.6.0.jar')
+    implementation files('libs/universal-image-loader-1.9.5.jar')
+    //android 控件列表库
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+//    compile 'com.jakewharton:butterknife:5.1.1'
+    //依赖注入库
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    //网络库
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    //网络日志拦截库
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.1.0'
+    //异步库
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.11'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+//    implementation 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation(name: 'picasso-2.5.2.3', ext: 'aar')
+    implementation 'com.lcodecorex:tkrefreshlayout:1.0.5'
+//    implementation project(':jcvideoplayer-lib')
+
+//    implementation 'com.github.mamumu:mmToast:1.0'
+
+    //yunpian
+    implementation 'com.yunpian:captcha:1.0.6'
+
+    implementation 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+
+    implementation project(path: ':X5WebDemo')
+    implementation project(path: ':biometriclib')
+    implementation project(path: ':VerificationCodeJava')
+
+    implementation 'com.github.wildma:IDCardCamera:1.1.1'
+    implementation 'com.github.wildma:PictureSelector:2.1.0'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //阿里云oss
+//    api 'com.aliyun.dpa:oss-android-sdk:+'
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:4.8.1'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+
+    //AndroidX 版本
+    implementation 'com.king.zxing:zxing-lite:1.1.9-androidx'
+    //Android 版本
+    implementation 'com.king.zxing:zxing-lite:1.1.9'
+
+    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.1'      //核心必须依赖
+    implementation  'com.scwang.smart:refresh-header-classics:2.0.1'    //经典刷新头
+    implementation  'com.scwang.smart:refresh-footer-classics:2.0.1'    //经典加载
+
+    //AutoDispose解决RXJava内存泄漏
+    implementation 'com.uber.autodispose:autodispose:0.7.0'
+    implementation 'com.uber.autodispose:autodispose-android:0.7.0'
+    implementation 'com.uber.autodispose:autodispose-android-archcomponents:0.7.0'
+
+    implementation 'com.tencent.bugly:crashreport:latest.release' //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+    implementation 'com.tencent.bugly:nativecrashreport:latest.release' //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
+//    implementation "androidx.core:core-splashscreen:1.2.0"
+
+    //implementation group: 'com.google.guava', name: 'guava', version: '29.0-android'
+
+
+}

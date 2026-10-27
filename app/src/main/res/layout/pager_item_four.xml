@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide_bg_three">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/font_dimen_138"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/font_dimen_64"
+            android:layout_height="@dimen/font_dimen_36"
+            android:src="@drawable/splash_app_three" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/font_dimen_15"
+            android:text="@string/splash_filecoin_two"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_sp_20"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide_bzyc"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_sp_30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/font_dimen_15"
+            android:text="@string/guide_find"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_sp_14" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/font_dimen_135"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_ljty"
+            android:layout_width="@dimen/font_dimen_200"
+            android:layout_height="@dimen/font_dimen_45"
+            android:layout_marginTop="@dimen/font_dimen_50"
+            android:background="@drawable/guide_border"
+            android:gravity="center"
+            android:padding="@dimen/font_dimen_4"
+            android:text="@string/guide_ljty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_sp_18" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="@dimen/font_dimen_10"
+            android:layout_marginTop="@dimen/font_dimen_12"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableLeft="@drawable/guide_checkbox_selector"
+                android:drawablePadding="@dimen/font_dimen_10"
+                android:paddingTop="11dp"
+                android:paddingBottom="@dimen/font_dimen_11"
+                android:text="@string/matchine_agree"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_dimen_11" />
+
+            <TextView
+                android:id="@+id/tv_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/font_dimen_11"
+                android:paddingRight="@dimen/font_dimen_10"
+                android:paddingBottom="@dimen/font_dimen_11"
+                android:text="@string/guide_agrees_two"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_sp_11" />
+
+        </LinearLayout>
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkbox3"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="@dimen/font_dimen_10"-->
+        <!--                android:drawableLeft="@drawable/guide_checkbox_selector"-->
+        <!--                android:drawableStart="@drawable/guide_checkbox_selector"-->
+        <!--                android:button="@null"-->
+        <!--                android:text="@string/guide_agrees"-->
+        <!--                android:drawablePadding="@dimen/font_dimen_10"-->
+        <!--                android:checked="true"-->
+        <!--                android:textSize="@dimen/font_dimen_11"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:padding="10dp"/>-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkbox3"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:button="@null"-->
+        <!--                android:drawableLeft="@drawable/guide_checkbox_selector"-->
+        <!--                android:drawableStart="@drawable/guide_checkbox_selector"-->
+        <!--                android:padding="10dp"/>-->
+
+    </LinearLayout>
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_start"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="38dp"-->
+    <!--        android:background="@drawable/button_bg"-->
+    <!--        android:paddingStart="25dp"-->
+    <!--        android:paddingEnd="25dp"-->
+    <!--        android:text="立即体验"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:visibility="gone"/>-->
+
+
+</RelativeLayout>

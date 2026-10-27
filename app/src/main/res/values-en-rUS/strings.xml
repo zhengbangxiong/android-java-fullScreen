@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">TradingBase</string>
+<!--    <string name="app_name">Yuncun Data</string>-->
+    <string name="loading"> is being loaded</string>
+    <string name="regisetr_get_yzm"> get verification code </string>
+
+    <string name="network_timeout"> network timeout</string>
+    <string name="network_error"> network exception </string>
+    <string name="service_busy"> service is busy</string>
+
+    <string name="fail_retry"> The request failed, please try again</string>
+
+
+    <string name="success"> successful operation</string>
+
+    <string name="splash_filecoin">Filecoin</string>
+    <string name="splash_filecoin_two"> Yuncun No. 1</string>
+
+
+    <string name="guide_ysl"> Cloud computing power</string>
+    <string name="guide_wkrcjd"> mining is so simple</string>
+    <string name="guide_kj">FileCoin mining Cloud device</string>
+    <string name="guide_ljkj"> Distributed storage, immediate storage</string>
+    <string name="guide_ljwk"> storage now </string>
+    <string name="guide_hqsz"> There is a mine at home, full of pride</string>
+    <string name="guide_bzyc"> more than this</string>
+    <string name="guide_find"> change, more than a little bit, waiting for you to discover</string>
+    <string name="guide_ljty"> Experience immediately</string>
+    <string name="guide_agrees"> agree to "Software License and Use Agreement" and "User Privacy Policy"</string>
+    <string name="guide_agrees_one"> Please agree to the "Software License Agreement and Privacy Policy" </string>
+    <string name="guide_agrees_two"> "Software License Agreement and Privacy Policy" </string>
+    <string name="guide_agrees_three"> Software License Agreement and Privacy Policy</string>
+
+
+    <string name="exis_app">Press again to exit the program</string>
+    <string name="safely_authentication"> real-name authentication</string>
+    <string name="safely_google">Google verification code binding</string>
+    <string name="safely_password"> modify the login password</string>
+    <string name="safely_email"> bind mailbox </string>
+    <string name="salefy_phone"> mobile phone number</string>
+    <string name="salefy_no_authentication"> not certified </string>
+    <string name="salefy_authentication"> certified </string>
+    <string name="real_name"> real name</string>
+    <string name="id_number"> ID number</string>
+    <string name="authentication_hint_id_name"> Fill in the name consistent with the ID card</string>
+    <string name="authentication_hint_id_number"> Enter the ID number</string>
+    <string name="next"> Next step</string>
+    <string name="my_authentication"> real-name authentication</string>
+    <string name="authentication_idnumber_one">1. Upload the front photo of the ID card</string>
+    <string name="authentication_idnumber_two">2. Upload the reverse photo of the ID card</string>
+    <string name="authentication_idnumber_three">3. Hold the front photo of your ID card</string>
+    <string name="authentication_idnumber_four"> 1: The text information of the uploaded ID photo must be complete and clear</string>
+    <string name="authentication_idnumber_five"> 2: Hold the ID card photo, the facial features are clearly visible, and the hands and arms are completely exposed</string>
+    <string name="authentication_idnumber_six"> 3: It is recommended to shoot horizontally </string>
+    <string name="authentication_idnumber_camera">Requirements</string>
+    <string name="authentication_upload_idnumber"> upload ID card</string>
+    <string name="authentication_please_qx"> Please manually open the permissions required by the application </string>
+
+    <string name="old_password"> original password</string>
+    <string name="new_password"> new password</string>
+    <string name="hint_old_password"> please enter the original password</string>
+    <string name="hint_new_password"> please enter a new password</string>
+    <string name="confirm_password"> confirm the password</string>
+    <string name="hint_confirm_password"> Please enter the password again</string>
+    <string name="confirm">confirm</string>
+    <string name="password_below_six"> password cannot be less than 6 digits </string>
+    <string name="picture_upload_error"> picture upload failed</string>
+
+    <string name="authentication_message"> real name information</string>
+    <string name="hint_write_nickName"> please enter a nickname</string>
+    <string name="hint_write_tag"> please enter a personalized signature</string>
+    <string name="select_headimg"> Please select an avatar</string>
+    <string name="save"> save</string>
+    <string name="memberinfo"> personal information </string>
+
+    <string name="authentication_idnumber_front"> Upload the front photo of the ID card</string>
+    <string name="authentication_idnumber_cont"> Upload the reverse photo of the ID card</string>
+    <string name="authentication_idnumber_sc"> Hold the front photo of your ID card</string>
+
+    <string name="info_name">Name:</string>
+    <string name="info_idnumber"> ID number:</string>
+    <string name="info_error"> real-name authentication failed</string>
+    <string name="info_review_error"> Audit failed: Your real-name authentication audit failed! </string>
+    <string name="info_refuse"> Reasons for rejection: </string>
+    <string name="info_cxrz"> re-certification</string>
+
+
+    <string name="refresh_down"> in the end, I have a bottom line</string>
+    <string name="google_apk_uploading"> is downloading, please wait a moment</string>
+    <string name="google_valication">Google Authenticator</string>
+
+
+    <string name="matchine_agree_xy"> Please agree to the "User Cloud Computing Power Purchase Agreement" </string>
+    <string name="matchine_agree"> I have read and agree to</string>
+    <string name="matchine_xy_one"> "User Cloud Computing Power Purchase Agreement" </string>
+    <string name="matchine_xy_two"> user cloud computing power purchase agreement</string>
+
+
+    <string name="dialog_google_one">Bind Google Authenticator</string>
+    <string name="dialog_google_two">You have not yet completed Google Authenticator</string>
+    <string name="dialog_google_three">Please go to the binding, thank you for your understanding and support. </string>
+    <string name="dialog_google_four">Cancel</string>
+    <string name="dialog_google_five"> to bind</string>
+
+    <string name="isrename"> real-name authentication</string>
+    <string name="isrename_one">You have not yet completed identity authentication. According to relevant national regulations, real-name registration is required for currency transactions. Please fill in your real identity information. Once the authentication is completed, it cannot be changed. Thank you for your understanding and support . </string>
+    <string name="isrename_two"> cancel </string>
+    <string name="isrename_three"> go to authentication</string>
+
+    <string name="cancel"> cancel</string>
+    <string name="comfirm"> OK</string>
+
+    <string name="skip"> skip </string>
+    <string name="install_permissions"> installation permissions</string>
+    <string name="install_permissions_one"> need to open permission from this source</string>
+    <string name="install_permissions_two">go to the settings to open this permission</string>
+    <string name="dialog_loading">Loading...</string>
+    <string name="dialog_loading_success"> loaded successfully</string>
+    <string name="dialog_update_version">New version</string>
+    <string name="dialog_version_loading">The new version is being downloaded</string>
+    <string name="dialog_ljgx"> Update immediately </string>
+
+    <string name="seconds"> seconds</string>
+    <string name="upload_error"> download failed</string>
+    <string name="partner_share"> share to</string>
+    <string name="no_network"> Please check the network connection status </string>
+    <string name="network_exception"> network exception </string>
+
+    <string name="home">Home</string>
+    <string name="home_machinery">Machine</string>
+    <string name="home_mining">Mining</string>
+    <string name="home_wallet">Wallet</string>
+    <string name="home_my">My</string>
+
+    <string name="upload">upload</string>
+    <string name="audit">audit</string>
+    <string name="complete">complete</string>
+    <string name="email">mail</string>
+    <string name="yzm">verification code</string>
+    <string name="input_yzm">Enter the SMS verification code</string>
+    <string name="unbindGoogle">Unbind Googel Authenticator</string>
+    <string name="openFingerPrint">Turn on fingerprint identification</string>
+    <string name="ccqx_error">Storage permission failed to obtain </string>
+
+    <string name="yqm">invitation code:</string>
+    <string name="copy">copy</string>
+    <string name="sharePicture">share pictures</string>
+    <string name="invite_frient">invite friends</string>
+    <string name="copy_success">copied successfully</string>
+    <string name="picture_address_null">Picture address is empty</string>
+
+    <string name="upload_problem">Having trouble installing?</string>
+    <string name="upload_problem2">If the installation prompts [Risk Application] or [Malicious Application], you can turn off the network and install it without Internet access.</string>
+    <string name="uploading_text">Download</string>
+    <string name="uploading_network_text">Please check the network</string>
+
+</resources>
